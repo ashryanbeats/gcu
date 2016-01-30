@@ -3,7 +3,7 @@
 echo "Your name?"
 read NAME
 
-echo "Your email? 1) ARB, 2) Adobe, or type it"
+echo "Your email? 1) Personal, 2) Work, or type it"
 read EMAIL
 
 # Set default emails
