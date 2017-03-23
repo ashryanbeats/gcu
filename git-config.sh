@@ -27,3 +27,11 @@ echo ""
 
 echo "User email:"
 git config user.email
+
+echo "git commit --amend --reset-author ? (y/N)"
+read RESET
+
+if [ "$RESET" === "y"]
+	then
+		git commit --amend --reset-author
+fi
